@@ -1,0 +1,31 @@
+13-Feb-2018 00:26:56.275 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+13-Feb-2018 00:26:56.553 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+13-Feb-2018 00:26:56.832 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [admin]
+13-Feb-2018 00:27:00.458 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+13-Feb-2018 00:27:00.736 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+13-Feb-2018 00:27:01.035 WARNING [http-nio-8080-exec-16] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [tomcat]
+13-Feb-2018 00:27:07.765 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+13-Feb-2018 00:27:08.043 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+13-Feb-2018 00:27:09.547 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [manager]
+13-Feb-2018 00:27:41.134 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [test]
+13-Feb-2018 00:27:42.302 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [test]
+13-Feb-2018 00:27:42.536 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [test]
+13-Feb-2018 00:27:43.523 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [test]
+13-Feb-2018 00:27:54.353 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+13-Feb-2018 00:27:56.639 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+13-Feb-2018 00:27:57.170 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [root]
+13-Feb-2018 07:28:05.495 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user []
+13-Feb-2018 08:13:09.696 INFO [http-nio-8080-exec-16] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:426)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
